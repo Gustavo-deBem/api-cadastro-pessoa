@@ -23,7 +23,6 @@ import java.util.List;
 @RequiredArgsConstructor
 
 public class AnimeController {
-
     private final  Dateutil dateutil;
     private final AnimeService animeService;
 

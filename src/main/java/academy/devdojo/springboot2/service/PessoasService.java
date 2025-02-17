@@ -36,7 +36,7 @@ public class PessoasService {
 
         return pessoasRepository.save(PessoasMapper.INSTANCE.toPessoas(pessoasPostRequestsBody));
 
-    }public void delete (long id){
+    }public void delete (Long id){
 
         pessoasRepository.delete(findByIdOrThrowBadException(id));
     }
